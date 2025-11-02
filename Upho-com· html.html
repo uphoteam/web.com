@@ -1,0 +1,221 @@
+
+Upho-com-index html
+<upho class="web"></upho><html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>upho.com — EKSKUL UPHO(By:Mr.Napit and his friend)</title>
+  <meta name="description" content="UPHO: ekskul komputer yang mempelajari pengenalan komputer, editing, dan coding secara kolaboratif." />
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card: #0f1724;
+      --accent: #67e8f9;
+      --accent-2: #a78bfa;
+      --text: #e6eef6;
+      --muted: #98a0b3;
+      --radius:14px;
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg),#071126);color:var(--text)}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#042028}
+    nav{display:flex;gap:18px}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600}
+    nav a:hover{color:var(--accent)}
+    .btn{background:var(--accent);color:#042028;padding:10px 14px;border-radius:12px;border:0;font-weight:700;cursor:pointer}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:28px}
+    .hero h1{font-size:34px;margin:0;color:var(--accent-2)}
+    .hero p{color:var(--muted);margin-top:12px}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:var(--radius);box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .feature{padding:14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.03)}
+
+    section{margin-top:44px}
+    h2{color:var(--accent);text-align:center}
+
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .activity-list{list-style:none;padding-left:0}
+    .activity-list li{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;margin-bottom:10px;color:var(--muted)}
+
+    .timeline{display:flex;flex-direction:column;gap:12px}
+    .timeline .item{display:flex;gap:12px;align-items:flex-start}
+    .timeline .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);margin-top:6px}
+
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .project{background:rgba(255,255,255,0.03);padding:12px;border-radius:12px}
+    .project img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    .faq{max-width:900px;margin:18px auto;display:grid;gap:10px}
+    .faq .q{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+
+    footer{margin-top:40px;text-align:center;color:var(--muted);padding:24px 0}
+
+    @media(max-width:920px){.hero{grid-template-columns:1fr} .features{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr}}
+    @media(max-width:540px){.features{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">UP</div>
+        <div>
+          <div style="font-weight:800">UPHO</div>
+          <div style="font-size:12px;color:var(--muted)">Ekskul Komputer — upho.com</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <button class="btn" id="joinBtn">Gabung</button>
+    </header>
+
+    <section class="hero" id="beranda">
+      <div>
+        <h1>UPHO — Unit Penguasaan Hardware & Online (BY:Mr.napit)</h1>
+        <p>Ekskul yang memfokuskan siswa untuk memahami komputer: pengenalan hardware & software, proses editing multimedia, dan pemrograman bersama-sama dalam proyek kolaboratif.</p>
+
+        <div class="card" style="margin-top:18px">
+          <strong>Fokus Utama:</strong>
+          <div class="features" style="margin-top:12px">
+            <div class="feature"><strong>Pengenalan Komputer</strong><div style="color:var(--muted);margin-top:6px">Dasar hardware, sistem operasi, jaringan ringan.</div></div>
+            <div class="feature"><strong>Editing</strong><div style="color:var(--muted);margin-top:6px">Video & audio editing, desain grafis untuk presentasi.</div></div>
+            <div class="feature"><strong>Coding</strong><div style="color:var(--muted);margin-top:6px">HTML, CSS, JS dasar, dan proyek sederhana bersama.</div></div>
+          </div>
+        </div>
+      </div>
+      <aside>
+        <div class="card">
+          <h3>Jadwal Rutin</h3>
+          <div style="color:var(--muted);margin-top:8px">
+            Senin — Pengenalan Hardware & Troubleshooting<br>
+            Rabu — Editing Video & Audio<br>
+            Jumat — Workshop Coding (Proyek Kelompok)<br>
+            Sabtu — Presentasi Proyek dan Uji Coba
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="kegiatan">
+      <h2>Kegiatan Harian & Tugas Siswa</h2>
+      <div class="grid">
+        <div>
+          <h3>Pengenalan Komputer</h3>
+          <ul class="activity-list">
+            <li>Mengenal bagian-bagian PC (CPU, RAM, HDD/SSD, GPU) dan fungsinya.</li>
+            <li>Instalasi sistem operasi sederhana dan pengaturan dasar.</li>
+            <li>Perawatan dasar: pembersihan, backup data, dan keamanan.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">Proses Editing</h3>
+          <ul class="activity-list">
+            <li>Dasar penggunaan perangkat lunak editing video (memotong, menambah transisi).</li>
+            <li>Editing audio untuk podcast dan presentasi.</li>
+            <li>Desain grafis dasar untuk poster acara sekolah.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Coding & Proyek</h3>
+          <ul class="activity-list">
+            <li>Belajar HTML & CSS untuk membuat halaman profil klub.</li>
+            <li>Dasar JavaScript: interaksi sederhana pada halaman web.</li>
+            <li>Proyek kelompok: membuat website dokumentasi kegiatan ekskul.</li>
+          </ul>
+
+          <h3 style="margin-top:12px">Tanggung Jawab Bersama</h3>
+          <div class="timeline">
+            <div class="item"><div class="dot"></div><div><strong>Pemeliharaan Lab</strong><div style="color:var(--muted)">Bersih, cek kabel, update software.</div></div></div>
+            <div class="item"><div class="dot"></div><div><strong>Backup Data</strong><div style="color:var(--muted)">Simpan project kelompok di server/pulsa cloud.</div></div></div>
+            <div class="item"><div class="dot"></div><div><strong>Dokumentasi</strong><div style="color:var(--muted)">Setiap proyek harus didokumentasikan untuk portofolio.</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyek">
+      <h2>Proyek & Hasil Kerja</h2>
+      <div class="projects">
+        <div class="project card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800" alt="Proyek Website">
+          <h4>Website Dokumentasi Ekskul</h4>
+          <p style="color:var(--muted)">Website yang menampilkan kegiatan, tutorial singkat, dan hasil editing siswa.</p>
+        </div>
+        <div class="project card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800" alt="Proyek Video">
+          <h4>Mini-Documentary</h4>
+          <p style="color:var(--muted)">Video pendek tentang proses belajar di laboratorium komputer.</p>
+        </div>
+        <div class="project card">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800" alt="Proyek Aplikasi">
+          <h4>Aplikasi Sederhana</h4>
+          <p style="color:var(--muted)">Aplikasi catatan tugas belajar menggunakan HTML/JS.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Kegiatan</h2>
+      <div class="projects">
+        <div class="project card"><img src="https://images.unsplash.com/photo-1527443224151-7b2c5f8f7b2b?w=800" alt="Lab Komputer"><p style="color:var(--muted);margin-top:8px">Sesi praktek di lab</p></div>
+        <div class="project card"><img src="https://images.unsplash.com/photo-1508385082359-f933f5f8ff6c?w=800" alt="Sesi Editing"><p style="color:var(--muted);margin-top:8px">Workshop editing</p></div>
+        <div class="project card"><img src="https://images.unsplash.com/photo-1581092725126-6f0b4a6b1d1f?w=800" alt="Presentasi"><p style="color:var(--muted);margin-top:8px">Presentasi hasil proyek</p></div>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak & Cara Gabung</h2>
+      <div class="card" style="padding:16px;max-width:720px;margin:0 auto">
+        <p style="color:var(--muted)">Untuk bergabung atau menanyakan jadwal, hubungi pembina ekskul atau isi formulir berikut:</p>
+        <form id="joinForm" style="display:grid;gap:10px;margin-top:12px">
+          <input type="text" id="nama" placeholder="Nama lengkap" required style="padding:10px;border-radius:10px;border:none;background:rgba(255,255,255,0.02);color:var(--text)" />
+          <input type="text" id="kelas" placeholder="Kelas" required style="padding:10px;border-radius:10px;border:none;background:rgba(255,255,255,0.02);color:var(--text)" />
+          <input type="email" id="email" placeholder="Email/WA" required style="padding:10px;border-radius:10px;border:none;background:rgba(255,255,255,0.02);color:var(--text)" />
+          <button class="btn" type="submit">Kirim</button>
+          <div id="formMsg" style="color:var(--muted);font-size:13px;margin-top:6px"></div>
+        </form>
+      </div>
+    </section>
+
+    
+    <div class="p-6 rounded-xl bg-neutral-800">
+          <h4 class="font-semibold">Pembimbing</h4>
+          <p class="text-neutral-400 mt-2">Guru: MR. SAYYID KECE-Teknologi Informasi</p>
+          <p class="text-neutral-400">Email: info@UPHOTEAM.sch.id</p>
+          <p class="text-neutral-400 mt-4">Ikuti: Instagram @UPHO TEAM | YouTube: Upho Team</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <script>document.write(new Date().getFullYear())</script> upho.com — Ekskul Komputer. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('joinBtn').addEventListener('click',()=> location.href='#kontak');
+    document.getElementById('joinForm').addEventListener('submit',function(e){
+      e.preventDefault();
+      const nama=document.getElementById('nama').value.trim();
+      const kelas=document.getElementById('kelas').value.trim();
+      const email=document.getElementById('email').value.trim();
+      if(!nama||!kelas||!email){document.getElementById('formMsg').textContent='Mohon lengkapi semua kolom.';return}
+      document.getElementById('formMsg').textContent='Terima kasih! Permintaan bergabung dikirim (demo).';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
+
