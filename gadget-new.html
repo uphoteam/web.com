@@ -1,0 +1,177 @@
+gadget-new.com
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gadget Nirkabel — New Gadget Exkul</title>
+  <meta name="description" content="Ekskul New Gadget: eksplorasi komputer tercanggih, laptop tanpa layar, hologram, dan kacamata AR yang mengakses seluruh web.">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* tambahan kecil untuk efek */
+    .glass { backdrop-filter: blur(6px); background: rgba(255,255,255,0.04); }
+    .neon { text-shadow: 0 0 8px rgba(99,102,241,0.25); }
+  </style>
+</head>
+<body class="bg-neutral-900 text-neutral-100 leading-relaxed">
+  <header class="p-6 border-b border-neutral-800">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-600 to-sky-400 flex items-center justify-center"> 
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="white"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.343-3 3v2h6v-2c0-1.657-1.343-3-3-3z"/></svg>
+        </div>
+        <div>
+          <h1 class="text-xl font-semibold">Gadget Nirkabel (by:R.A.Napit)</h1>
+          <p class="text-xs text-neutral-400">Ekskul "New Gadget" — Eksplorasi perangkat masa depan</p>
+        </div>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm text-neutral-300">
+        <a href="#about" class="hover:text-white">Tentang</a>
+        <a href="#gadgets" class="hover:text-white">Gadget</a>
+        <a href="#peran" class="hover:text-white">Peran Anggota</a>
+        <a href="#kontak" class="hover:text-white">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6">
+    <!-- Hero -->
+    <section class="grid md:grid-cols-2 gap-8 items-center py-12">
+      <div>
+        <h2 class="text-4xl font-bold neon">New Gadget — Ekskul Masa Depan</h2>
+        <p class="mt-4 text-neutral-300">"Gadget Nirkabel" adalah situs resmi ekskul New Gadget; kami mengeksplorasi komputer tercanggih, laptop tanpa layar, hologram interaktif, dan kacamata AR yang dapat mengakses seluruh website. Bergabunglah untuk belajar, bereksperimen, dan membangun prototipe nyata.</p>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#gadgets" class="px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500">Pelajari Gadget</a>
+          <a href="#peran" class="px-5 py-3 rounded-xl border border-neutral-700">Gabung Ekskul</a>
+        </div>
+
+        <ul class="mt-8 grid gap-3 text-sm text-neutral-400">
+          <li>📍 Lokasi: Ruang Lab Komputer, Gedung Teknologi, Panyandaan, Atas Langit</li>
+          <li>🕒 Jadwal: Setiap Rabu & Jumat, 15:30 — 17:30</li>
+          <li>👥 Untuk: Hanya Santri yang berminat teknologi</li>
+        </ul>
+      </div>
+      <div class="rounded-xl overflow-hidden bg-neutral-800 glass p-6">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="gadget" class="w-full h-64 object-cover rounded-lg shadow-lg">
+      </div>
+    </section>
+
+    <!-- Gadgets -->
+    <section id="gadgets" class="py-12">
+      <h3 class="text-2xl font-semibold">Gadget & Teknologi yang Kita Pelajari</h3>
+      <p class="text-neutral-400 mt-2">Ekskul membahas ide perangkat nyata & konseptual — dari komputer tercanggih hingga pengalaman tanpa layar.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <!-- Computer tercanggih -->
+        <article class="p-6 rounded-2xl bg-neutral-800 border border-neutral-800">
+          <h4 class="text-xl font-semibold">Komputer Tercanggih</h4>
+          <p class="mt-2 text-neutral-300">Fokus pada arsitektur masa depan: pemrosesan neuromorfik, komputasi kuantum (konsep), dan sistem edge AI. Kami merakit demo berbasis microcontroller, mempelajari prinsip paralelisme, optimasi memori, dan keamanan perangkat fisik.</p>
+          <ul class="mt-3 text-sm text-neutral-400 list-disc list-inside">
+            <li>Topik: Neuromorphic chips, accelerators AI, cooling challanges</li>
+            <li>Proyek: Mini cluster Raspberry Pi untuk inferensi model ML</li>
+          </ul>
+        </article>
+
+        <!-- Laptop tanpa layar -->
+        <article class="p-6 rounded-2xl bg-neutral-800 border border-neutral-800">
+          <h4 class="text-xl font-semibold">Laptop Tanpa Layar</h4>
+          <p class="mt-2 text-neutral-300">Konsep laptop tanpa layar memakai input gesture, suara, dan output ke headset/kacamata AR. Ide ini menjanjikan perangkat portabel yang ringan dan terintegrasi dengan dunia augmented reality.</p>
+          <ul class="mt-3 text-sm text-neutral-400 list-disc list-inside">
+            <li>Topik: UI tanpa layar, voice assistant, privacy</li>
+            <li>Proyek: Prototype docking yang mengirim rendering UI ke kacamata AR</li>
+          </ul>
+        </article>
+
+        <!-- Hologram -->
+        <article class="p-6 rounded-2xl bg-neutral-800 border border-neutral-800">
+          <h4 class="text-xl font-semibold">Hologram Interaktif</h4>
+          <p class="mt-2 text-neutral-300">Mempelajari teknik proyeksi volumetrik, mixed reality, dan bagaimana membuat konten 3D yang responsif terhadap sentuhan dan gerakan.</p>
+          <ul class="mt-3 text-sm text-neutral-400 list-disc list-inside">
+            <li>Topik: volumetric displays, depth sensing, interaksi tangan</li>
+            <li>Proyek: Simulasi presentasi holografis sederhana menggunakan sensor dan proyektor.</li>
+          </ul>
+        </article>
+
+        <!-- Kacamata AR -->
+        <article class="p-6 rounded-2xl bg-neutral-800 border border-neutral-800">
+          <h4 class="text-xl font-semibold">Kacamata AR — Portal ke Seluruh Web</h4>
+          <p class="mt-2 text-neutral-300">Kacamata AR menjadi antarmuka utama: menampilkan konten web, notifikasi, dan workspace virtual. Di ekskul, kita menguji bagaimana kacamata dapat mengakses website, menampilkan UI yang ramah mata, dan menjaga privasi pengguna.</p>
+          <ul class="mt-3 text-sm text-neutral-400 list-disc list-inside">
+            <li>Topik: rendering web di AR, navigasi gestural, optimasi latency</li>
+            <li>Proyek: membuat web app kecil yang ramah AR untuk ditampilkan di kacamata</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Peran anggota -->
+    <section id="peran" class="py-12">
+      <h3 class="text-2xl font-semibold">Peran & Kegiatan Anggota</h3>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-4 rounded-xl bg-neutral-800">
+          <h5 class="font-semibold">Leader & Koordinator</h5>
+          <p class="text-sm text-neutral-400 mt-2">Mengatur projek, jadwal, dan hubungan dengan guru pembimbing.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-neutral-800">
+          <h5 class="font-semibold">Engineer & Maker</h5>
+          <p class="text-sm text-neutral-400 mt-2">Merancang prototipe hardware dan integrasi sensor/aktuator.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-neutral-800">
+          <h5 class="font-semibold">Developer & UI/UX</h5>
+          <p class="text-sm text-neutral-400 mt-2">Membangun aplikasi web/AR dan antarmuka pengguna untuk kacamata.</p>
+      </div>
+    </section>
+
+    <!-- Roadmap projek -->
+    <section class="py-12">
+      <h3 class="text-2xl font-semibold">Roadmap Projek Singkat</h3>
+      <ol class="mt-4 list-decimal ml-5 text-neutral-300">
+        <li>Riset & Workshop: Dasar AR, prototyping cepat (1-2 bulan)</li>
+        <li>Prototype Hardware: Kacamata AR sederhana & sensor (2-3 bulan)</li>
+        <li>Integrasi Web: Menyajikan website lewat AR & optimasi UI (2 bulan)</li>
+        <li>Demo Publik: Pameran sekolah & dokumentasi (1 bulan)</li>
+      </ol>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-12">
+      <h3 class="text-2xl font-semibold">Kontak & Aksi Selanjutnya</h3>
+      <p class="text-neutral-400 mt-2">Tertarik bergabung? Hubungi pembimbing ekskul atau isi formulir pendaftaran singkat.</p>
+
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <form class="p-6 rounded-xl bg-neutral-800">
+          <label class="block text-sm">Nama</label>
+          <input class="mt-2 w-full rounded-md p-2 bg-neutral-900 border border-neutral-700" placeholder="Nama lengkap">
+          <label class="block text-sm mt-4">Kelas</label>
+          <input class="mt-2 w-full rounded-md p-2 bg-neutral-900 border border-neutral-700" placeholder="Contoh: 6 KMI">
+          <label class="block text-sm mt-4">Alasan Singkat</label>
+          <textarea class="mt-2 w-full rounded-md p-2 bg-neutral-900 border border-neutral-700" rows="3" placeholder="Kenapa ingin bergabung?"></textarea>
+          <div class="mt-4 flex gap-3">
+            <button type="button" class="px-4 py-2 rounded-md bg-indigo-600">Kirim</button>
+            <button type="reset" class="px-4 py-2 rounded-md border">Reset</button>
+          </div>
+        </form>
+
+        <div class="p-6 rounded-xl bg-neutral-800">
+          <h4 class="font-semibold">Pembimbing</h4>
+          <p class="text-neutral-400 mt-2">Guru: MR. SAYYID KECE-Teknologi Informasi</p>
+          <p class="text-neutral-400">Email: info@gadgetnirkabel.sch.id</button>
+          <p class="text-neutral-400 mt-4">Ikuti: Instagram @gadgetnirkabel | YouTube: Gadget Nirkabel</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-neutral-800 py-6">
+    <div class="max-w-5xl mx-auto text-center text-sm text-neutral-500">© <span id="year"></span> Gadget Nirkabel — Ekskul New Gadget. Semua hak cipta milik sekolah.</div>
+  </footer>bagi yang berminat langsung datang aja.</body>
+
+  <script>
+    // simple year update
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
